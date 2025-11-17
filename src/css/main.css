@@ -17,3 +17,34 @@ video {
   width: 150px;
   height: auto;
 }
+.card_artist_big {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.card_artist_big_img {
+display: flex;
+padding: 10px;
+flex-direction: column;
+aspect-ratio: 1/1;
+}
+.card_artist_big_content {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.card_artist_big_style {
+display: flex;
+padding: 3px 7px;
+align-items: flex-start;
+align-self: stretch;
+border-radius: 6px;
+border: 1px solid #F9F5E6;
+background:  #1C1A17;
+color:  #F9F5E6;
+font-family: neue Arial, Helvetica, sans-serif;
+font-size: 14px;
+line-height: 21px;
+}
+
