@@ -6,6 +6,7 @@
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 img,
@@ -13,9 +14,26 @@ video {
   display: block;
 }
 
+body {
+  display: flex;
+  width: 1440px;
+  padding: 0 64px 24px 64px;
+  flex-direction: column;
+  align-items: center;
+  gap: 42px;
+}
+
 .logo {
   width: 150px;
   height: auto;
+}
+.artist_list {
+  color:#1C1A17;
+  font-family: switzer;
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 99%;
+  letter-spacing: -1.6px;
 }
 .card_artist_big {
   display: inline-flex;
@@ -24,27 +42,43 @@ video {
   gap: 8px;
 }
 .card_artist_big_img {
-display: flex;
-padding: 10px;
-flex-direction: column;
-aspect-ratio: 1/1;
+  height: 676px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  aspect-ratio: 1/1;
 }
 .card_artist_big_content {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .card_artist_big_style {
-display: flex;
-padding: 3px 7px;
-align-items: flex-start;
-
-border-radius: 6px;
-border: 1px solid #F9F5E6;
-background:  #1C1A17;
-color:  #F9F5E6;
-font-family: neue Arial, Helvetica, sans-serif;
-font-size: 14px;
-line-height: 21px;
+  display: flex;
+  padding: 3px 7px;
+  align-items: flex-start;
+  border-radius: 6px;
+  border: 1px solid #F9F5E6;
+  background:  #1C1A17;
+  color:  #F9F5E6;
+  font-family: neue Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
 }
 
+.about_content {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.about_text {
+  color: #1C1A17;
+  font-family: Switzer;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+}
