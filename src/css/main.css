@@ -39,6 +39,23 @@ h1{
   align-items: flex-end;
   width: 100%;
 }
+.Hero-main {
+  height: 75% vh;
+   overflow: hidden; 
+   position: relative; 
+   transition: transform 0.5s ease-in-out;
+}
+.carousel_hero { 
+  display: flex; 
+
+}
+.carousel_slide { 
+  flex: 0 0 100%;
+}
+.carousel_slide img{ 
+  width: 100%; 
+  height: auto;
+}
 
 .logo {
   width: 150px;
@@ -96,7 +113,6 @@ h1{
   font-size: 14px;
   line-height: 21px;
   width: fit-content;
-
 }
 
 .card_artist_big_title {
