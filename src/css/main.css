@@ -38,6 +38,8 @@ h1{
   justify-content: flex-end;
   align-items: flex-end;
   width: 100%;
+  position: relative;
+
 }
 .Hero-main {
   height: 75% vh;
